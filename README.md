@@ -16,7 +16,7 @@ PERGUNTA 2: Qual foi o tipo recomendado?. Seco
 ## Passo 3.3 (A Pergunta de Ouro): Vamos pedir para a máquina cruzar tudo e dar a sugestão final.  
 PERGUNTA 3: Qual foi o vinho exato que o sistema recomendou?  
 V = cabernet_sauvignon  
-![Descrição](vinho/tinto.png)
+![Descrição](prolog2/vinho1.png)
 
 ## PERGUNTA 4 Explique com as suas próprias palavras como o Prolog chegou sozinho a essa conclusão matemática (como ele encadeou as regras). 
 Resposta: O Prolog analisou os fatos do cliente: prato_principal(massa). molho(tomate)., Como o prato era massa, a regra definiu a cor como tinto, o molho era tomate, a regra definiu o tipo como seco.
