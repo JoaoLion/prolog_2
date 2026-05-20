@@ -42,3 +42,5 @@ Apague (ou comente com %) o fato molho(...) do pedido do seu cliente. Deixe apen
 
 Missão: O Prolog respondeu false. Por que o sistema falhou ao invés de recomendar qualquer vinho aleatório da cor certa? O que aconteceu com o Subobjetivo de tipo de vinho durante a execução?  
 Resposta: O sistema falhou porque ele precisava descobrir tanto a cor quanto o tipo do vinho para recomendar um vinho específico. Quando o fato do molho foi removido, o Prolog conseguiu encontrar a cor do vinho, mas não conseguiu descobrir o tipo (suave ou seco).  Então o subobjetivo: melhor_tipo(...), falhou. Como todas as regras de melhor_vinho dependem de cor E tipo ao mesmo tempo, nenhuma delas pôde ser completada, e o resultado foi: false. O Prolog não escolhe respostas aleatórias, ele só retorna algo quando todas as condições das regras são verdadeiras.
+
+![Descrição](prolog2/vinho3.png)
